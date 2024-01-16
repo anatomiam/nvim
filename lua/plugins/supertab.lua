@@ -1,6 +1,4 @@
 return {
-    -- undo tree
-    { "mbbill/undotree" },
     -- supertab recipe from https://www.lazyvim.org/configuration/recipes#supertab
     {
         "L3MON4D3/LuaSnip",
@@ -51,17 +49,5 @@ return {
                 end, { "i", "s" }),
             })
         end,
-    },
-    -- add gruvbox
-    { "ellisonleao/gruvbox.nvim", opts = {
-        transparent_mode = true,
-    } },
-
-    -- Configure LazyVim to load gruvbox
-    {
-        "LazyVim/LazyVim",
-        opts = {
-            colorscheme = "gruvbox",
-        },
     },
 }
