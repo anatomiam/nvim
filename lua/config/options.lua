@@ -4,3 +4,6 @@
 
 -- never show less than 8 lines at bottom
 vim.opt.scrolloff = 12
+
+-- autoformat off
+vim.g.autoformat = false
